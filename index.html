@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone - Premium Fitness Center</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <link rel="stylesheet" href="/CSS/Animation.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FitZone</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#membership" class="nav-link">Membership</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Body, Transform Your Life</h1>
+            <p class="hero-subtitle">Join FitZone today and start your fitness journey with professional trainers and state-of-the-art equipment</p>
+            <div class="hero-buttons">
+                <a href="#membership" class="btn btn-primary">Get Started</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Happy Members</p>
+            </div>
+            <div class="stat-item">
+                <h3>15+</h3>
+                <p>Expert Trainers</p>
+            </div>
+            <div class="stat-item">
+                <h3>5+</h3>
+                <p>Years Experience</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About FitZone</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Premier Fitness Destination</h3>
+                    <p>At FitZone, we believe fitness is not just about physical transformation—it's about building confidence, discipline, and a healthier lifestyle. Our state-of-the-art facility combines cutting-edge equipment with expert guidance to help you achieve your goals.</p>
+                    <p>With over 5 years of experience in the fitness industry, we've helped thousands of members transform their lives through personalized training programs and comprehensive wellness solutions.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Modern Equipment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Expert Trainers</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Flexible Hours</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Wellness Focus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-running"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section class="membership" id="membership">
+        <div class="container">
+            <h2 class="section-title">Membership Plans</h2>
+            <div class="membership-grid">
+                <div class="membership-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Gym Access</li>
+                        <li><i class="fas fa-check"></i> Locker Room</li>
+                        <li><i class="fas fa-check"></i> Basic Equipment</li>
+                        <li><i class="fas fa-times"></i> Personal Training</li>
+                        <li><i class="fas fa-times"></i> Group Classes</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="membership-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Premium</h3>
+                    <div class="price">$59<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> All Basic Features</li>
+                        <li><i class="fas fa-check"></i> Personal Training</li>
+                        <li><i class="fas fa-check"></i> Group Classes</li>
+                        <li><i class="fas fa-check"></i> Nutrition Guidance</li>
+                        <li><i class="fas fa-times"></i> VIP Lounge</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="membership-card">
+                    <h3>VIP</h3>
+                    <div class="price">$99<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> All Premium Features</li>
+                        <li><i class="fas fa-check"></i> VIP Lounge Access</li>
+                        <li><i class="fas fa-check"></i> Priority Booking</li>
+                        <li><i class="fas fa-check"></i> Massage Therapy</li>
+                        <li><i class="fas fa-check"></i> 24/7 Access</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <h2 class="section-title">Our Expert Trainers</h2>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>John Smith</h3>
+                    <p class="trainer-specialty">Strength & Conditioning</p>
+                    <p class="trainer-bio">Certified personal trainer with 8+ years experience in strength training and bodybuilding.</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Sarah Johnson</h3>
+                    <p class="trainer-specialty">Yoga & Flexibility</p>
+                    <p class="trainer-bio">Certified yoga instructor specializing in mindfulness and flexibility training for all levels.</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Mike Davis</h3>
+                    <p class="trainer-specialty">Cardio & Weight Loss</p>
+                    <p class="trainer-bio">Fitness expert focused on cardiovascular health and sustainable weight loss programs.</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <h2 class="section-title">Class Schedule</h2>
+            <div class="schedule-table">
+                <div class="schedule-header">
+                    <div class="time-slot">Time</div>
+                    <div class="day">Monday</div>
+                    <div class="day">Tuesday</div>
+                    <div class="day">Wednesday</div>
+                    <div class="day">Thursday</div>
+                    <div class="day">Friday</div>
+                    <div class="day">Saturday</div>
+                    <!-- <div class="day">Sunday</div> -->
+                </div>
+                <div class="schedule-row">
+                    <div class="time-slot">6:00 AM</div>
+                    <div class="class-item">Morning Yoga</div>
+                    <div class="class-item">Cardio Blast</div>
+                    <div class="class-item">Morning Yoga</div>
+                    <div class="class-item">Strength Training</div>
+                    <div class="class-item">Morning Yoga</div>
+                    <div class="class-item">HIIT</div>
+                    <!-- <div class="class-item">Yoga Flow</div> -->
+                </div>
+                <div class="schedule-row">
+                    <div class="time-slot">8:00 AM</div>
+                    <div class="class-item">Strength Training</div>
+                    <div class="class-item">Pilates</div>
+                    <div class="class-item">Cardio Blast</div>
+                    <div class="class-item">Yoga</div>
+                    <div class="class-item">Strength Training</div>
+                    <div class="class-item">CrossFit</div>
+                    <!-- <div class="class-item">Pilates</div> -->
+                </div>
+                <div class="schedule-row">
+                    <div class="time-slot">10:00 AM</div>
+                    <div class="class-item">Pilates</div>
+                    <div class="class-item">HIIT</div>
+                    <div class="class-item">Strength Training</div>
+                    <div class="class-item">Cardio Blast</div>
+                    <div class="class-item">Pilates</div>
+                    <div class="class-item">Yoga</div>
+                    <!-- <div class="class-item">Free Training</div> -->
+                </div>
+                <div class="schedule-row">
+                    <div class="time-slot">6:00 PM</div>
+                    <div class="class-item">CrossFit</div>
+                    <div class="class-item">Strength Training</div>
+                    <div class="class-item">HIIT</div>
+                    <div class="class-item">Pilates</div>
+                    <div class="class-item">CrossFit</div>
+                    <div class="class-item">Cardio Blast</div>
+                    <!-- <div class="class-item">Yoga</div> -->
+                </div>
+                <div class="schedule-row">
+                    <div class="time-slot">8:00 PM</div>
+                    <div class="class-item">Evening Yoga</div>
+                    <div class="class-item">Cardio</div>
+                    <div class="class-item">Evening Yoga</div>
+                    <div class="class-item">HIIT</div>
+                    <div class="class-item">Evening Yoga</div>
+                    <div class="class-item">Strength Training</div>
+                    <!-- <div class="class-item">Relaxation</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-controls">
+                <button class="btn btn-secondary" id="add-photo-btn">
+                    <i class="fas fa-plus"></i> Add Photo
+                </button>
+                <input type="file" id="photo-input" accept="image/*" style="display: none;">
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <!-- <i class="fas fa-dumbbell"></i> -->
+                        <img src="/images/Img1.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-running"></i>
+                        <img src="/images/Img3.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-heart"></i>
+                        <img src="/images/Img4.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <!-- <i class="fas fa-users"></i> -->
+                        <img src="/images/Img5.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <!-- <i class="fas fa-trophy"></i> -->
+                        <img src="/images/Img2.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <!-- <i class="fas fa-fire"></i> -->
+                        <video src="/images/Vid1.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator -->
+    <section class="bmi-calculator" id="bmi">
+        <div class="container">
+            <h2 class="section-title">BMI Calculator</h2>
+            <div class="bmi-content">
+                <div class="bmi-form">
+                    <div class="form-group">
+                        <label for="weight">Weight (kg)</label>
+                        <input type="number" id="weight" placeholder="Enter your weight">
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Height (cm)</label>
+                        <input type="number" id="height" placeholder="Enter your height">
+                    </div>
+                    <button class="btn btn-primary" id="calculate-bmi">Calculate BMI</button>
+                </div>
+                <div class="bmi-result" id="bmi-result">
+                    <h3>Your BMI Result</h3>
+                    <div class="bmi-value" id="bmi-value">-</div>
+                    <div class="bmi-category" id="bmi-category">Enter your details to calculate</div>
+                    <div class="bmi-chart">
+                        <div class="bmi-range underweight">Underweight: < 18.5</div>
+                        <div class="bmi-range normal">Normal: 18.5 - 24.9</div>
+                        <div class="bmi-range overweight">Overweight: 25 - 29.9</div>
+                        <div class="bmi-range obese">Obese: ≥ 30</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Members Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"FitZone has completely transformed my fitness journey. The trainers are incredibly knowledgeable and supportive. I've never felt stronger!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>Lost 25 lbs in 6 months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The variety of classes and modern equipment makes every workout exciting. FitZone has become my second home!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>James Thompson</h4>
+                                <span>Member for 2 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Amazing community and fantastic results. The personal training sessions have helped me achieve goals I never thought possible."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Maria Garcia</h4>
+                                <span>Gained 15 lbs muscle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-navigation">
+                <button class="nav-btn" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="nav-btn" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your operating hours?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're open Monday to Friday from 5:00 AM to 11:00 PM, and weekends from 6:00 AM to 10:00 PM. VIP members have 24/7 access.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer trial sessions?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a free 7-day trial for new members. This includes access to all basic facilities and one complimentary personal training session.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I freeze my membership?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can freeze your membership for up to 3 months per year for medical reasons or extended travel. A small administrative fee may apply.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What equipment do you have?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We have state-of-the-art cardio machines, free weights, resistance machines, functional training equipment, and dedicated spaces for yoga and group classes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide nutrition guidance?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, our Premium and VIP members receive personalized nutrition guidance from certified nutritionists to complement their fitness goals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Fitness Street, Health City, HC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@fitzone.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon-Fri: 5AM-11PM<br>Sat-Sun: 6AM-10PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0977!2d85.1376!3d25.5941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1678901234567!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for fitness tips, exclusive offers, and updates</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FitZone</h3>
+                    <p>Transform your body, transform your life. Join thousands of members who have achieved their fitness goals with us.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Group Classes</a></li>
+                        <li><a href="#">Nutrition Guidance</a></li>
+                        <li><a href="#">Wellness Programs</a></li>
+                        <li><a href="#">Corporate Fitness</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Health City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@fitzone.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FitZone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script src="/js/main.js"></script>
+    <script src="/js/bmi-calculator.js"></script>
+    <script src="/js/animations.js"></script>
+    <script src="/js/theme-toggle.js"></script>
+    <script src="/js/image.js"></script>
+    
+</body>
+</html>
