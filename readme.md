@@ -274,4 +274,5 @@ For support, email support@fitgym.com or create an issue in the GitHub repositor
 
 ---
 
-**Built with ❤️ for the fitness community**
+
+**Built with ❤️ for the fitness community...**
