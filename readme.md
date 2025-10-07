@@ -1,6 +1,6 @@
 # 🏋️ FitGym - Modern Gym Website
 
-A modern, responsive gym website built with HTML, CSS, and JavaScript featuring glassmorphism design, dark mode, and interactive components
+A modern, responsive gym website built with HTML, CSS, and JavaScript featuring glassmorphism design, dark mode, and interactive components.
 
 ## 🌟 Features
 
@@ -276,4 +276,5 @@ For support, email support@fitgym.com or create an issue in the GitHub repositor
 
 
 **Built with ❤️ for the fitness community...**
+
 
