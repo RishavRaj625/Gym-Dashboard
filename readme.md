@@ -9,7 +9,7 @@ A modern, responsive gym website built with HTML, CSS, and JavaScript featuring 
 - **Dark/Light Mode Toggle** - Seamless theme switching with smooth transitions
 - **Responsive Layout** - Mobile-first design that works on all devices
 - **Smooth Animations** - CSS animations and transitions for enhanced UX
-- **Interactive Elements** - Hover effects, button animations, and micro-interactions
+- **Interactive Elements** - Hover effects, button animations, and micro-interactions.
 
 ### Sections & Components
 - **Hero Section** - Eye-catching landing area with gradient background
@@ -276,5 +276,6 @@ For support, email support@fitgym.com or create an issue in the GitHub repositor
 
 
 **Built with ❤️ for the fitness community...**
+
 
 
